@@ -1,0 +1,140 @@
+:root{
+    --paleta_azul-claro: #eeeeee;
+    --paleta_azul-oscuro: #201e43;
+    --paleta_azul-primario: #134b70;
+    --paleta_azul-segundario:#508c9b ;
+    --paleta_verde-claro: #e9efec;
+    --paleta_verde-oscuro: #16423c;
+    --paleta_verde-primario:#6a9c89 ;
+    --paleta_verde-segundario:#c4dad2;
+    --fuente-1:"Fira Sans", sans-serif;
+    --fuente-2:"PT Serif", serif;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+.titulo{
+    text-align: center;
+    font-family: var(--fuente-1);
+    font-weight: 700;
+    font-size:3rem;
+    text-transform: uppercase;
+
+}
+html{
+  background-color: var(--primario);
+  background-size: cover;
+  margin-top:0 auto;
+
+}
+.nave{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  font-family: var(--fuente-1);
+  font-weight: 500;
+  font-size:1.5rem;
+  text-transform: uppercase;
+}
+.fis{
+  background-color: var(--paleta_azul-oscuro);
+  color: var(--paleta_azul-claro);
+}
+.qui{
+  background-color: var(--paleta_verde-oscuro);
+  color: var(--paleta_verde-claro);
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--claro);
+}
+
+.main a, .main h3{
+  display: block; 
+}
+.main a{
+  font-weight: 700;
+  font-family: var(--fuente-2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.main h3{
+  font-weight: 700;
+  font-family: var(--fuente-1);
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.boton-fs{
+  background-color: var(--paleta_azul-oscuro);
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: var(--paleta_azul-claro);
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 30%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 35%;
+  /* box-shadow: -16px -5px 35px -11px rgba(0,0,0,0.51); */
+}
+/* @media (min-width:768px){
+  .boton-fs, .boton-qm{
+    margin-left: 35%;
+  }
+}
+@media (max-width:768px){
+  .main{
+    justify-content: left;
+    text-align:left;
+    align-items: left;
+  }
+} */
+.boton-qm{
+  background-color: var(--paleta_verde-oscuro);
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: var(--paleta_verde-claro);
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 30%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 35%;
+  /* box-shadow: -16px -5px 35px -11px rgba(0,0,0,0.51); */
+}
+.boton-fs:hover{
+  background-color: var(--paleta_azul-claro);
+  color: var(--paleta_azul-oscuro);
+}
+.boton-qm:hover{
+  background-color: var(--paleta_verde-claro);
+  color: var(--paleta_verde-oscuro);
+}
+.fisica{
+  background-color: var(--paleta_azul-segundario);
+}
+.quimica{
+  background-color: var(--paleta_verde-segundario);
+}
+.divcentral{
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  border-radius: 3rem;
+  margin: 5rem 10% ;
+}
